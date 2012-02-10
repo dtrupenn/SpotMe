@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/privacy_visibility"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy/Visibility"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <CheckBox
+            android:id="@+id/showname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Name" />
+
+        <CheckBox
+            android:id="@+id/showcontact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Contact" />
+
+        <CheckBox
+            android:id="@+id/showrecent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Recent Songs" />
+
+    </LinearLayout>
